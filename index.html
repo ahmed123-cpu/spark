@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDU</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Full width container with dark background -->
+    <div
+      class="container-fluid"
+      style="background: #252B42; padding: 0;"
+    >
+      <!-- Header Section -->
+      <div class="header" id="home">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="#home">EduSpark</a>
+            <!-- Toggler button for mobile -->
+            <button
+              class="navbar-toggler text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <!-- Hamburger icon -->
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Navigation links -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+
+              <!-- Auth Buttons -->
+              <form class="d-flex" role="search">
+                <button class="btn">
+                  Log In
+                </button>
+                <button class="btn sign">
+                  Sign Up <i class="fa-solid fa-right-to-bracket"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Intro Section -->
+      <div class="intro">
+        <h1>Best Learning Opportunities</h1>
+        <p>
+          Join thousands of students worldwide who are gaining new skills in 
+          programming, design, business, and more. Learn at your own pace with 
+          expert instructors and practical projects.
+        </p>
+        <button type="button" class="btn btn-primary">Explore Courses</button>
+        <button type="button" class="btn btn-outline-primary">
+          Learn More
+        </button>
+      </div>
+
+      <!-- Features Section -->
+      <div
+        class="row features justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <!-- Feature Icon -->
+              <i
+                class="fa-solid fa-chalkboard-user fa-3x text-primary mb-3"
+              ></i>
+              <h5 class="card-title">Expert Instructors</h5>
+              <p class="card-text">
+                Learn from highly qualified teachers and industry professionals
+                with years of experience.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <i class="fa-solid fa-laptop-code text-success fa-3x mb-3"></i>
+              <h5 class="card-title">Flexible Learning</h5>
+              <p class="card-text">
+                Access courses anytime, anywhere, and learn at your own pace
+                with mobile-friendly content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <i class="fa-solid fa-graduation-cap fa-3x text-warning mb-3"></i>
+              <h5 class="card-title">Certified Courses</h5>
+              <p class="card-text">
+                Earn recognized certificates upon course completion to boost
+                your career opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Courses Section -->
+      <div class="courses" id="courses">
+        <div class="intro">
+          <h1>Discover Our Courses <i class="fa-solid fa-book"></i></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            molestias temporibus necessitatibus magni non? Aliquam impedit totam
+            adipisci nemo reprehenderit?
+          </p>
+        </div>
+
+        <!-- Course Cards -->
+        <div class="course-cards">
+          <!-- Course Card 1 -->
+          <div class="card" style="width: 18rem">
+            <span id="sale">Sale</span>
+            <img
+              src="images/Web.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="rank">
+                <h4>Web Design</h4>
+                <span><i class="fa-solid fa-star"></i> 4.5</span>
+              </div>
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <div class="sales-price">
+                <h6 class="sales">45 Sales</h6>
+                <h6 class="price"><del>9.3$</del> 6.0$</h6>
+              </div>
+              <h4 class="time">
+                <i class="fa-solid fa-clock"></i> 20h |
+                <i class="fa-solid fa-book"></i> 35 Lesson
+              </h4>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <!-- Course Card 2 -->
+          <div class="card" style="width: 18rem">
+            <span id="sale">Sale</span>
+            <img
+              src="/images/UI.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="rank">
+                <h4>Web Design</h4>
+                <span><i class="fa-solid fa-star"></i> 4.8</span>
+              </div>
+              <h5 class="card-title">UI & UX Design</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <div class="sales-price">
+                <h6 class="sales">45 Sales</h6>
+                <h6 class="price"><del>8.6$</del> 5.2$</h6>
+              </div>
+              <h4 class="time">
+                <i class="fa-solid fa-clock"></i> 15h |
+                <i class="fa-solid fa-book"></i> 22 Lesson
+              </h4>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <!-- Course Card 3 -->
+          <div class="card" style="width: 18rem">
+            <span id="sale">Sale</span>
+            <img
+              src="/images/Hacking.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="rank">
+                <h4>Web Design</h4>
+                <span><i class="fa-solid fa-star"></i> 5.0</span>
+              </div>
+              <h5 class="card-title">Cyber Security</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <div class="sales-price">
+                <h6 class="sales">45 Sales</h6>
+                <h6 class="price"><del>15.0$</del> 12.0$</h6>
+              </div>
+              <h4 class="time">
+                <i class="fa-solid fa-clock"></i> 20h |
+                <i class="fa-solid fa-book"></i> 35 Lesson
+              </h4>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reviews Section -->
+      <div class="review" id="reviews">
+        <div class="intro">
+          <h1>What Our Students Say <i class="fa-solid fa-comments"></i></h1>
+          <p>
+            Hear from our learners who successfully completed courses and improved their skills.  
+            Real experiences, honest feedback, and inspiring success stories from our community.
+          </p>
+        </div>
+
+        <!-- Review Cards -->
+        <div class="review-cards">
+          <!-- Review Card 1 -->
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <!-- Stars -->
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>"Excellent instructors, easy-to-follow lessons, and a helpful support team. This platform truly makes learning enjoyable, effective, and accessible for anyone wanting to build skills successfully."</p>
+              <!-- Person Info -->
+              <div class="person">
+                <div class="image">
+                  <img src="/images/1.webp" class="rounded-circle" alt="User">
+                </div>
+                <div class="pers">
+                  <h5>Ahmed Talaat</h5>
+                  <h6>Developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review Card 2 -->
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p>"The course content is clear, engaging, and practical. I learned valuable skills, improved quickly, and now feel more confident applying my knowledge in real-world projects and opportunities."</p>
+              <div class="person">
+                <div class="image">
+                  <img src="/images/2.webp" class="rounded-circle" alt="User">
+                </div>
+                <div class="pers">
+                  <h5>Ahmed Talaat</h5>
+                  <h6>Developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review Card 3 -->
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>"Great experience! Interactive courses, updated materials, and real-life examples helped me understand topics much better. The flexibility allowed me to learn anytime, anywhere without stress."</p>
+              <div class="person">
+                <div class="image">
+                  <img src="/images/3.webp" class="rounded-circle" alt="User">
+                </div>
+                <div class="pers">
+                  <h5>Ahmed Talaat</h5>
+                  <h6>Developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review Card 4 -->
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>"Excellent instructors, easy-to-follow lessons, and a helpful support team. This platform truly makes learning enjoyable, effective, and accessible for anyone wanting to build skills successfully."</p>
+              <div class="person">
+                <div class="image">
+                  <img src="/images/4.webp" class="rounded-circle" alt="User">
+                </div>
+                <div class="pers">
+                  <h5>Ahmed Talaat</h5>
+                  <h6>Developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
